@@ -167,8 +167,7 @@ void menu_file_open_activate (GtkObject *object, gpointer user_data)
 	gtk_widget_destroy (dialog);
 }
 // Creates a GTKSourceView
-+GtkSourceView
-*create_gtk_source_view()
+GtkSourceView *create_gtk_source_view()
 {
 	GtkSourceView *view;
 	GtkSourceBuffer *buf;
