@@ -241,7 +241,7 @@ int main (int argc, char *argv[])
 	gtk_init (&argc, &argv);
 	builder = gtk_builder_new ();
 	g_assert(builder != NULL);	
-	gtk_builder_add_from_file (builder, "main_window.xml", NULL);
+	gtk_builder_add_from_file (builder, "main_window.glade", NULL);
 	gtk_builder_connect_signals (builder, NULL);
 	GtkNotebook *notebook = GTK_NOTEBOOK(gtk_builder_get_object(builder, "editor_notebook"));
 	sqlitegtk_create_notebook_page(notebook, "My Awesome Page 1");
