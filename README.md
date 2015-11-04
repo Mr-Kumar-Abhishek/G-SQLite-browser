@@ -8,6 +8,6 @@ to make this public.
 
 ####History
 
-This is being cloned/forked from [here](http://code.google.com/p/sqlitegtk/). You could say I am just "hacking" into into it to know how it works, and also updating it's code along the way.
+This is being cloned/forked from [here](http://code.google.com/p/sqlitegtk/). You could say I am just "hacking" into it to know how it works, and also updating its code along the way.
 
 ![under GNU GPL v3 License](https://www.gnu.org/graphics/gplv3-127x51.png "GNU GPL v3 License")
