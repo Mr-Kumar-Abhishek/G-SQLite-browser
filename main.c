@@ -132,7 +132,7 @@ void menu_help_about_activate (GtkObject *object, gpointer user_data)
 	gchar *authors[] = {"Aly Hirani, Abhishek Kumar", NULL};
 	gtk_show_about_dialog(GTK_WINDOW(window), "authors", authors, "comments", "A simple GTK+ GUI to SQLite", 
 		"copyright", "Copyleft(c) 2015 <Aly Hirani> <Abhishek Kumar> under GNU GPL v3 License",
-		"program-name", "G-SQLite Browser", "version", "0.0.0-0.0.1", NULL);
+		"program-name", "G-SQLite Browser", "version", "v0.0.0-0.0.1", NULL);
 }
 // Called on File -> New
 void menu_file_new_activate (GtkObject *object, gpointer user_data)
