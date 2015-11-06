@@ -4,7 +4,7 @@ This my sandbox for testing methods in c with sqlite and gtk.I thought of updati
 in private repositories, but since others could learn too to some extent of what I have been doing, I have decided
 to make this public.
 
-######Workflow: Treat master as a development banch as this is a sand box. Other feature branches merges to this.
+######Workflow: `master` branch is the stable branch. `dev`branch is where all the feature branches merge, also where all the pull request should go. 
 
 ####History
 
