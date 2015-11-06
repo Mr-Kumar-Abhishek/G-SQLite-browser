@@ -5,7 +5,7 @@ LIBS := -lsqlite3
 DEBUG = -Wall -Werror
 OBJS = main.o
 
-sqlitegtk: ${OBJS}
+g-sqlite: ${OBJS}
 	$(CC) $(DEBUG) $(CFLAGS) $< -o $@ ${LDFLAGS} $(LIBS) 
 
 clean:
